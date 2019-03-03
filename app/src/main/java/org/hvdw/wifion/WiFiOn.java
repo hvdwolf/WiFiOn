@@ -22,7 +22,7 @@ public class WiFiOn extends Activity {
         wifiManager.setWifiEnabled(true);
         //wifiManager.setWifiEnabled(false);
 
-        Log.d(TAG, "Switch On WiFi");
+        Log.d(TAG, "Switched On WiFi");
 
         finish();
     }
